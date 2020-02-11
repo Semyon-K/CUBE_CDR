@@ -17,3 +17,5 @@ Import Kibana visualization.
 
 ![Visualize](visualize.png?raw=true "Visualize")
 
+![Discovery](discovery.png?raw=true "discovery")
+
