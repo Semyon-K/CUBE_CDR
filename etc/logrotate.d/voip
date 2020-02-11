@@ -1,0 +1,13 @@
+/var/log/network/voip.log {
+    weekly
+    size 500
+    dateext
+    rotate 50
+    maxage 90
+    compress
+    delaycompress
+    missingok
+    notifempty
+    olddir rotated
+    create 644 syslog syslog
+}
