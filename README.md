@@ -11,13 +11,14 @@ Based on [Justin Jahn's configuration file](https://gist.github.com/justinjahn/8
 
 # CONFIGURATION
 
+Rsyslog is used to store logs for a long period of time and logstash for real-time analyzing for a last week.
+
 Add next configuration to Cisco border element.
 ```
 gw-accounting syslog
 logging host 192.168.1.1 transport udp port 10514
 ```
-Install [translate plugin](https://www.elastic.co/guide/en/logstash/current/plugins-filters-translate.html).
-Rsyslog is used to store logs for a long period of time and logstash for real-time analyzing for a last week.
+
 Add configuration of rsyslog, logrotate and logstash. 
 
 In Kibana create new index pattern "cisco-\*" in "Management" - "Stack Management" - "Kibana Index patterns".
