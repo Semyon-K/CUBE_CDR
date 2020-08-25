@@ -5,9 +5,9 @@ Based on [Justin Jahn's configuration file](https://gist.github.com/justinjahn/8
 
 # SCREENSHOTS
 
-![Visualize](visualize.png?raw=true "Visualize")
+![Visualize](screenshots/visualize.png?raw=true "Visualize")
 
-![Discovery](discovery.png?raw=true "discovery")
+![Discovery](screenshots/discovery.png?raw=true "discovery")
 
 # CONFIGURATION
 
@@ -23,6 +23,7 @@ Add configuration of rsyslog, logrotate and logstash.
 In Kibana create new index pattern "cisco-\*" in "Management" - "Stack Management" - "Kibana Index patterns".
 Add Kibana visualization as on the screenshot.
 
+![Vizualisation](screenshots/visualisation_config.png?raw=true "Vizualisation")
 
 
 
